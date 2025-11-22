@@ -1,0 +1,28 @@
+## Ch 1
+- Embedded Systems and it's features
+- A basic model of Real Time System(to be read later Rajib Mall)
+- Design Metrics(LQ)
+    - Recurring Cost vs Non Recurring Cost
+- ASIC,FPGA(SQ)
+- ES design flow with diagram(LQ)
+## Ch 2 
+- Microcontrollers
+- ARM vs RISC
+- ARM7 structure(LQ)
+- ARM control and memory signals
+- ARM Pipeline
+- ISA
+    - Register
+        - CPSR,SPSR,Modes
+    - Data Processing
+    - Data Transfer 
+        - Block Data Transfer
+    - Multiplication
+    - SWI
+    - Conditional Execution
+    - Branch
+    - Swap
+- Thumb
+    - Instruction Decompressor
+    - Thumb vs ARM
+    - Excetions in ARM
