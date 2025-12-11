@@ -228,9 +228,8 @@ Ex: ff000000 can be used as immediate operand since it satisfies the above rule 
     2. PC  (R15)  cannot  be  used  for  multiplication.
 ### 5. Software Interrupt
 - The Software Interrupt(SWI) forces CPU to enter into supervisor mode.
-- The format of instruction is:
-$$\text{SWI \#n}$$
-- Here $n$ is a 24 bit number to represent an operation.
+- The format of instruction is: `SWI #n`
+- Here `n` is a 24 bit number to represent an operation.
 - Eg, `SWI #5`,may be request to file open denied.
 - SWI can bu used for system calls.
 ### 6.Conditional Instruction
@@ -266,6 +265,7 @@ $$\text{SWPB }R_d,R_m,[R_n]$$
 4. Content  of  the  temporary  space  is  copied  into  the  register  Rd.
 
 <p align="center"><img src="Images/Screenshot 2025-12-11 103150.png" width="" height=""></p>
+
 
 
 
