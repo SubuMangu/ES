@@ -182,8 +182,8 @@ has  been  designed  to  support  these  data  types  in  little-  or  big-endia
 - `op2`:second operand
 - Instead of variable, we can use numbers directly as **immediate operands**.
 - A number must satisfy the following condition to be used as an immediate operand.
-$$n=\text{i ROR}\left(2*r\right) $$
-$$0\le i \le 255\text{ and }0 \le r \le 15$$
+$$ n=\text{i ROR}\left(2*r\right) $$
+$$ 0\le i \le 255\text{ and }0 \le r \le 15 $$
 $$ROR:\text{Right shift operator}$$
 Ex: ff000000 can be used as immediate operand since it satisfies the above rule with i=255(ff in hexadecimal) and r=0
 - But 511(fff) can't be used as an immediate operand since it doesn't satisfy the above rule.
@@ -265,6 +265,7 @@ $$\text{SWPB }R_d,R_m,[R_n]$$
 4. Content  of  the  temporary  space  is  copied  into  the  register  Rd.
 
 <p align="center"><img src="Images/Screenshot 2025-12-11 103150.png" width="" height=""></p>
+
 
 
 
