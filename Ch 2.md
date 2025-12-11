@@ -1,6 +1,6 @@
 # Ch 2
 ## ARM7 Structure
-<p align="center"><img src="Images/Screenshot 2025-11-22 172817.png" width="" height=""></p>
+<p align="center"><img src="Images/Screenshot 2025-12-09 123854.png" width="" height=""></p>
 
 **Buses Used**
 - `A[31:0]` : Address bus
@@ -265,4 +265,5 @@ $$\text{SWPB }R_d,R_m,[R_n]$$
 4. Content  of  the  temporary  space  is  copied  into  the  register  Rd.
 
 <p align="center"><img src="Images/Screenshot 2025-12-11 103150.png" width="" height=""></p>
+
 
