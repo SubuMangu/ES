@@ -215,6 +215,7 @@ Ex: ff000000 can be used as immediate operand since it satisfies the above rule 
     1. **Using Stack:** Here SP represents stack pointer
     <p align="center"><img src="Images/Screenshot 2025-12-10 163905.png" width="230" height=""></p>
     <p align="center"><img src="Images/Screenshot 2025-12-10 164033.png" width="" height=""></p>
+    
     2. **Transfer around memory**
     <p align="center"><img src="Images/Screenshot 2025-12-10 233703.png" width="" height=""></p>
 ### 4. Multiplication Instruction
@@ -265,6 +266,7 @@ $$\text{SWPB }R_d,R_m,[R_n]$$
 4. Content  of  the  temporary  space  is  copied  into  the  register  Rd.
 
 <p align="center"><img src="Images/Screenshot 2025-12-11 103150.png" width="" height=""></p>
+
 
 
 
